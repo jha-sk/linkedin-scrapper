@@ -1,0 +1,44 @@
+INFO:     Started server process [11917]
+INFO:     Waiting for application startup.
+22:28:26 INFO  phantom.auth: API token set; required on /api/* even on loopback
+22:28:26 INFO  phantom.runner: runner started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8079 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52779 - "POST /api/agents HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52780 - "DELETE /api/agents/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52781 - "POST /api/agents HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52782 - "GET /api/agents/1/stream HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52783 - "DELETE /api/agents/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52786 - "GET /api/columns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52786 - "POST /api/agents HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52786 - "PATCH /api/agents/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52786 - "GET /api/agents/1/results?page=1&per_page=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52786 - "GET /api/agents/1/export.csv HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52786 - "DELETE /api/agents/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52789 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/columns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/quota HTTP/1.1" 200 OK
+22:29:38 INFO  phantom.session: launching browser: channel chromium, headless
+INFO:     127.0.0.1:52789 - "GET /api/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "POST /api/session/cookies/preview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "POST /api/agents HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52789 - "GET /api/agents/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "PATCH /api/agents/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "POST /api/agents/999999/launch HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/launches HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/leads HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/export.csv HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/export.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /api/agents/1/stream HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52792 - "DELETE /api/agents/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:52793 - "GET /api/agents HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52792 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52792 - "GET /assets/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52792 - "GET /assets/js/app.js HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+22:34:24 INFO  phantom.runner: runner stopped
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11917]
