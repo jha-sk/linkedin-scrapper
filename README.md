@@ -5,7 +5,7 @@ Get live public LinkedIn profile data as JSON, from a plain HTTP call.
 No LinkedIn API. No third party enrichment service. No API key, no signup, no account anywhere. **And no cookie needed.** You point it at a profile URL and you get structured JSON back.
 
 ```bash
-curl -X POST http://127.0.0.1:8000/api/agents \
+curl -X POST http://hackersploit-1.tailad7945.ts.net/api/agents \
   -H 'Content-Type: application/json' \
   -d '{"input_urls":["https://www.linkedin.com/in/some-profile/"],"fetch_all_sections":true}'
 ```
