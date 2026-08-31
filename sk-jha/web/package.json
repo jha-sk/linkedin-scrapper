@@ -1,0 +1,13 @@
+{
+  "name": "phantom-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel frontend for the LinkedIn Profile Scraper: static UI plus a server-side proxy that holds the API token.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,4 @@
+# Generated at build time from phantom/static — the single source of truth.
+public/
+node_modules/
+.vercel

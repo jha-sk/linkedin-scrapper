@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+venv/
+.pytest_cache/
+.cache/
+
+# Runtime state: database, encryption key, browser profile, downloaded images.
+# The browser profile is a live LinkedIn session — never commit it.
+data/
+logs/
+*.tar.gz
+
+# Local scratch
+debug.html
+profile.json
+detail-html/

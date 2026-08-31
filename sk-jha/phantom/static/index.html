@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinkedIn Profile Scraper</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>👻</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/" data-link>
+    <span class="brand-mark" aria-hidden="true">◈</span>
+    <span>Profile Scraper</span>
+  </a>
+  <nav class="topnav">
+    <a href="#/" data-link>Dashboard</a>
+    <a href="#/columns" data-link>Data schema</a>
+    <a href="/docs" target="_blank" rel="noreferrer">API</a>
+  </nav>
+  <div class="topbar-right">
+    <span class="quota" id="quota" title="Profiles scraped today against the daily cap"></span>
+  </div>
+</header>
+
+<main id="view" class="view" aria-live="polite"></main>
+
+<div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+
+<script type="module" src="/assets/js/app.js">
+</script>
+</body>
+</html>
